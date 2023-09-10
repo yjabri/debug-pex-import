@@ -1,4 +1,4 @@
-To build the `pex` I just run `pants package ::`. I'm running `python 3.10.8` via `pyenv`. To setup `Jupyter` I ran
+To build the `pex` I just run `pants package ::`. I'm running `python 3.10` via `pyenv`. To setup `Jupyter` I ran
 
 ```
 python3.10 -m pip install notebook==7.0.3
@@ -9,12 +9,12 @@ python3.10 -m pip install ipykernel==6.25.2
 To create a kernel for `Jupyter` I ran
 
 ```
-python3.10 -m ipykernel install --user --name python3.10.8
+python3.10 -m ipykernel install --user --name python3.10
 ```
 
-To start `jupyter` I ran `python3.10 -m notebook`. I also made sure to select the `python3.10.8` kernel in the `Jupyter` notebook.
+To start `jupyter` I ran `python3.10 -m notebook`. I also make sure to select the `python3.10` kernel.
 
-Visitng the URL that pops up in the console and trying to execute the notebook I get the following error:
+Visitng the URL that pops up in the console and trying to execute `error_notebook.ipynb` I get the following error:
 
 ```
 ---------------------------------------------------------------------------
